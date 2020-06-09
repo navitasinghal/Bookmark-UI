@@ -27,6 +27,29 @@
 .App-link {
   color: #61dafb;
 }
+.appbar {
+  opacity: 1 !important;
+}
+
+.scroll {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.main {
+  padding: 10vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  opacity: 0.6;
+}
+
+.container {
+  background-image: url("../src/assets/bookmark.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* opacity: 0.6; */
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +58,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.title {
+  display: "none";
+  padding-left: "25px";
+}
+
+.spacing {
+  margin: 1vh;
+}
+
+.search {
+  position: 'relative';
+  border-radius: 3px;
+  background-color: white;
+  margin-left: 0;
+  width: '60%';
+  color: white;
+  margin: 20px;
+}
+
+.searchIcon {
+  padding: 5px;
+  height: '100%';
+  position: 'absolute';
+  pointer-events: 'none';
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
 }
